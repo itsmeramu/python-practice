@@ -15,3 +15,20 @@ print(46%3)
 num = int(input("Enter a number: "))
 if num % 2 == 0:
     print("Even")
+
+#simple program for operators
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+op = input("Enter operator (+, -, *, /): ")
+
+if op == '+':
+    print(a + b)
+elif op == '-':
+    print(a - b)
+elif op == '*':
+    print(a * b)
+elif op == '/':
+    print(a / b)
+
+else:
+    print("Invalid operator")
